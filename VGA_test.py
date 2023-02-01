@@ -24,7 +24,7 @@ from Core.GMM import GMM
 from Core.VariationalGP import VariationalGaussianProcess,VGP_JKO
 from Core.LangevinTarget import logisticpdf, logisticpdfHD
 from Core.Laplace import LaplaceLogReg
-from plotHelpers import plotGPtraj, plotHistoKL, plotHistoKLgaussian, KLnormalVslogpdf, \
+from GMM_plot import plotGPtraj, plotHistoKL, plotHistoKLgaussian, KLnormalVslogpdf, \
             computeResults, plotHistoRightKL
 from scipy.stats import multivariate_normal
 from scipy.stats import special_ortho_group
