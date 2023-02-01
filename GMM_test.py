@@ -12,7 +12,7 @@ from Core.GMM import GMM
 from Core.Utils import Expect
 from Core.LangevinTarget import logisticpdf, logisticpdfHD
 from Core.Laplace import LaplaceLogReg
-from plotHelpers import generateGMM, generateGMMrandom, generateGMMsquare,\
+from GMM_plot import generateGMM, generateGMMrandom, generateGMMsquare,\
     generateCovariance, plotGMMcovs,plotGPtraj, \
         recordVideo, plotHistoKL, plotHistoKLgaussian, KLnormalVslogpdf, \
             computeResults, plotHistoRightKL
